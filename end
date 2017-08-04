@@ -1,0 +1,8 @@
+#!/bin/bash
+cd seventhsem/
+git add *
+git push origin master
+cd ../
+rm -r seventhsem
+rm ~/.gitconfig
+mv ~/.gitconfig2 ~/.gitconfig

@@ -1,0 +1,6 @@
+#!/bin/bash
+git clone https://www.github.com/TusharAgey/seventhsem
+cd seventhsem/
+mv ~/.gitconfig ~/.gitconfig2
+git config --global user.name "Tushar Agey"
+git config --global user.email agey.tushar3@gmail.com
